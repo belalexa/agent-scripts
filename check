@@ -12,6 +12,13 @@ fi
 
 ## check number of processors
 
+
+
+
+
+C=`nproc`
+
+
 if  [ `nproc`  -eq 1 ]
 
 then
