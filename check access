@@ -4,5 +4,5 @@ if [ ${UID} -ne 0  ]
 then
 echo " you  need root accsess"
 
-exit
+exit 0
 fi
